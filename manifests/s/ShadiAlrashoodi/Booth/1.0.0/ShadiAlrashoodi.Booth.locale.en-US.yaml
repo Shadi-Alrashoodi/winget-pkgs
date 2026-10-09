@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: ShadiAlrashoodi.Booth
-PackageVersion: 0.2.2
+PackageVersion: 1.0.0
 PackageLocale: en-US
 Publisher: Shadi Alrashoodi
 PublisherUrl: https://github.com/Shadi-Alrashoodi
@@ -10,7 +10,7 @@ Author: Shadi Alrashoodi
 PackageName: Booth
 PackageUrl: https://github.com/Shadi-Alrashoodi/booth
 License: MIT or Apache-2.0
-LicenseUrl: https://github.com/Shadi-Alrashoodi/booth/blob/v0.2.2/README.md#license
+LicenseUrl: https://github.com/Shadi-Alrashoodi/booth/blob/v1.0.0/README.md#license
 Copyright: Copyright (c) 2026 Shadi Alrashoodi
 ShortDescription: Voice, text chat and screen sharing for a few friends, hosted on one of their PCs.
 Description: |-
@@ -27,6 +27,6 @@ Tags:
 - self-hosted
 - peer-to-peer
 - gaming
-ReleaseNotesUrl: https://github.com/Shadi-Alrashoodi/booth/releases/tag/v0.2.2
+ReleaseNotesUrl: https://github.com/Shadi-Alrashoodi/booth/releases/tag/v1.0.0
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0
