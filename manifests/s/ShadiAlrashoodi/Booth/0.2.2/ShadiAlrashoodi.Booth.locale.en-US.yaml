@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
+
+PackageIdentifier: ShadiAlrashoodi.Booth
+PackageVersion: 0.2.2
+PackageLocale: en-US
+Publisher: Shadi Alrashoodi
+PublisherUrl: https://github.com/Shadi-Alrashoodi
+PublisherSupportUrl: https://github.com/Shadi-Alrashoodi/booth/issues
+Author: Shadi Alrashoodi
+PackageName: Booth
+PackageUrl: https://github.com/Shadi-Alrashoodi/booth
+License: MIT or Apache-2.0
+LicenseUrl: https://github.com/Shadi-Alrashoodi/booth/blob/v0.2.2/README.md#license
+Copyright: Copyright (c) 2026 Shadi Alrashoodi
+ShortDescription: Voice, text chat and screen sharing for a few friends, hosted on one of their PCs.
+Description: |-
+  Voice, text chat and screen sharing for a few friends on Windows, built for the lowest delay.
+  One friend hosts on their own PC, the others join with an invite code, and packets go straight between PCs over UDP, encrypted after a Noise handshake. No accounts and no server in the middle.
+  Voice uses 5 ms Opus frames. Screen sharing captures with Desktop Duplication and encodes on the GPU, up to 1440p at 120 fps, H.264 or HEVC. Ping, jitter and loss stay on screen.
+  It installs for the current user without an administrator prompt. On first start it asks once for administrator rights to add its firewall rule.
+Moniker: booth
+Tags:
+- voice-chat
+- text-chat
+- screen-sharing
+- low-latency
+- self-hosted
+- peer-to-peer
+- gaming
+ReleaseNotesUrl: https://github.com/Shadi-Alrashoodi/booth/releases/tag/v0.2.2
+ManifestType: defaultLocale
+ManifestVersion: 1.12.0
